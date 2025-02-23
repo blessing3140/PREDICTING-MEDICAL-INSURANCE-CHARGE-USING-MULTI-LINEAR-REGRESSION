@@ -41,39 +41,12 @@ This project analyzes a medical insurance dataset and builds a predictive model 
 ├── app/                   # Streamlit/Flask app for deployment  
 ├── requirements.txt       # Dependencies  
 ├── README.md              # Project documentation  
-└── main.py                # Main script for training  
-
-
-## *🛠 Installation & Usage*  
-### *⿡ Clone the Repository*  
-bash
-git clone https://github.com/blessing3140/predicting-medical-insurance-charge-using-multile-linear-regression-model.git
-cd your-repo-name
-### *⿢ Install Dependencies*  
-bash
-pip install -r requirements.txt
-
-
-### *⿣ Run colab Notebook for Analysis*  
-colab notebook
-
-
-### *⿤ Train the Model*  
-bash
-colab main.py
-
-
-### *⿥ Run Streamlit App (If Deployed)*  
-bash
-streamlit run app/app.py
+└── main.py                # Main script for training
 
 ## *📈 Models Used*  
 ✔ *Linear Regression*  
 ✔ *Ridge Regression*  
 
-
-
-  
 
 ## *📜 License*  
 This project is licensed under the *MIT License*.  
