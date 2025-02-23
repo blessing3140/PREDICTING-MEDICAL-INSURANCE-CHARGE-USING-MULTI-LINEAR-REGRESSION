@@ -18,7 +18,20 @@ This project analyzes a medical insurance dataset and builds a predictive model 
 ## *📊 Objective*  
 - Perform *Exploratory Data Analysis (EDA)* to understand correlations.  
 - Build *Machine Learning models* (Linear Regression, Ridge Regression, etc.) to predict insurance costs.  
-- Deploy the model using *Streamlit / Flask*.  
+- Deploy the model using *Streamlit / Flask*.
+
+- ### *Key Insights and Recommendations Based on the Dataset*  
+
+#### *1. Factors Affecting Insurance Charges*
+- *Smoking status*: Smokers have significantly higher insurance costs than non-smokers. If possible, promoting smoking cessation programs can help lower premiums.  
+- *BMI (Body Mass Index)*: Higher BMI is associated with higher charges. Encouraging a healthier lifestyle (diet and exercise) may reduce long-term costs.  
+- *Age*: Older individuals tend to have higher insurance costs. Providing affordable options for elderly customers can be beneficial.  
+- *Number of children*: Having more children slightly increases insurance costs. Family plans should be structured accordingly.
+#### 2. Regional Pricing Strategies
+- The dataset includes four regions: southwest, southeast, northwest, and northeast. If one region has higher average charges, insurers can investigate why and adjust pricing or offer discounts based on risk levels.  
+
+#### 3. Predictive Modeling for Pricing
+- A linear regression model can predict insurance charges based on input features like age, BMI, and smoking status.
 
  ##*📦 Project Structure*  
 
@@ -42,13 +55,12 @@ pip install -r requirements.txt
 
 
 ### *⿣ Run colab Notebook for Analysis*  
-bash
 colab notebook
 
 
 ### *⿤ Train the Model*  
 bash
-python main.py
+colab main.py
 
 
 ### *⿥ Run Streamlit App (If Deployed)*  
@@ -58,6 +70,9 @@ streamlit run app/app.py
 ## *📈 Models Used*  
 ✔ *Linear Regression*  
 ✔ *Ridge Regression*  
+
+
+
   
 
 ## *📜 License*  
