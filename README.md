@@ -34,7 +34,7 @@ This project analyzes a medical insurance dataset and builds a predictive model 
 ## *🛠 Installation & Usage*  
 ### *⿡ Clone the Repository*  
 bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/blessing3140/predicting-medical-insurance-charge-using-multile-linear-regression-model.git
 cd your-repo-name
 ### *⿢ Install Dependencies*  
 bash
